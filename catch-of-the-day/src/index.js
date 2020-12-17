@@ -1,5 +1,7 @@
-import React from 'react'
-import { render } from 'react-dom';
-import StorePicker from './components/StorePicker'
+import React from "react";
+import { render } from "react-dom";
+import Router from "./components/Router";
 
-render(<StorePicker />, document.querySelector('#main'));
+import "./css/style.css";
+
+render(<Router />, document.querySelector("#main"));
